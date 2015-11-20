@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<style>
+#footer {
+	      background-color: black;
+	      color:white;
+	      clear: both;
+	      text-align: center;
+         }
+body {background-color:red}
+h1   {color:white; font-size:300%;text-align:center}
+p    {color:blue ;font-size:160%;text-align:center;
+      border:1px solid black;
+      padding:10px; }
+ul#menu {padding:0;}
+ul#menu li {display:inline;}
+ul#menu li a {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 100px 100px 0 0;
+
+}
+
+ul#menu lia:hover {background-color: white;}
+
+  #image {width:1270;
+           height:700}
+
+</style>
+</head>
+
+<body> <!--does not work in html-5-->
+<h1 ><b><strong><del>The CAR!!!!</del> "The Mean Machine!!"</strong></b> </h1>
+<hr>
+
+<p ><b><i><em><mark><ins><sup>MY</sup>ALPHA <sub>blog</sub></b></i></mark></em></ins></p> <!--style="font-family:verdana> doesnot work with html-5-->"
+<hr>
+
+ <bdo dir="rtl" style="color:blue;font-size:120%;background-color:red">"The car is a mean machine"</bdo>
+  <br>
+
+  <%=image_tag('car.jpg', :size=>"1270x700")%>
+
+<br>
+
+
+
+  <%=link_to image_tag('images.jpg',:size=>"100x100"),about_path%>
+<blockquote>
+<div style="background-color:black; color:white ;padding:20px">
+  <span style="color:black">  <span style="color:red"> John Stewart above will take u to ABOUT page, where u will further find a car and the instructions.<br> If u want to know more about the driverless car and the gasoline car the link</span> -----> <span style="color:black">GET WELL SOON</span>
+	<ul style="list-style-type:square">
+       <li>driverless</li>
+       <li>no driver to give ticket to</li>
+	</ul>
+	Also there are many things these kinda cars can do.
+	<ol type="I">
+       <li>No more traffics
+            <ul>
+            <li>faster travel time</li>
+            <li>one piece to the place</li>
+            </ul>
+       </li>
+       <li>No more accidents</li>
+       <li>No more road rage</li>
+	</ol>
+	So all in all
+	<dl>
+		<dt>Driverless car</dt>
+		<dd>no accident</dd>
+		<dd>no road rage</dd>
+	</dl>
+	<dl>
+		<dt>Man Driven Car</dt>
+		<dd>accidents</dd>
+		<dd>chaos</dd>
+	</dl>
+	The list below will show u more
+	</div>
+</blockquote>
+<hr>
+<ul id="menu">
+    <li><a href="http://www.autobytel.com/car-ownership/advice/10-benefits-of-self-driving-cars-121032/"target= "_blank">SelfDrivingCar</a></li>
+    <li><a href="http://www.ehow.com/list_6303251_disadvantages-using-gasoline-cars.html"target="_blank">GasolineCars</a></li>
+ </ul>
+ <div id="footer">
+    The driverless car is the future!!!!!
+ </div>
+
+
+
+</body>
+
+</html>
