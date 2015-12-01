@@ -1,2 +1,54 @@
+$navbar-default-bg: orange;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+    float:left;
+    font-size:1.7em;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:-1px;
+    font-weight:bold;
+}
+
+#logo:hover {
+       color:green;
+       text-decoration:underline;
+}
+
+.center {
+    color: orange;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('bigbang_theory.jpg');
+    background-size:cover;
+}
+.jumbotron h1 {
+    font-size:300%;
+    font-family:Comic Sans MS;
+}
+
+.btn-xlarge{
+  font-size:2em;
+  color:black;
+  background-color: white;
+}
+
+.footer {
+	      background-color: black;
+	      color:white;
+	      clear: both;
+	      text-align: center;
+        font-family:Comic Sans MS;
+         }
+footer ul {
+       float:left;
+       list-style:none;
+}
+
+footer li {
+       float:left;
+       margin-left:15px;
+}
