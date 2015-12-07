@@ -1,5 +1,12 @@
 <h1 align="center"> Listing all Articles</h1>
+<div align="center">
+  <%= will_paginate %>
+</div>
 
-<%= render 'article', obj: @article %>
+<%= render 'article', obj: @articles %>
+<div align="center">
+  <%= will_paginate %>
+</div>
+
 
 <%=link_to image_tag('homepage.gif',:size=>"100x100", :align=>"right"),root_path %>
