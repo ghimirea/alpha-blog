@@ -1,17 +1,17 @@
 require 'test_helper'
 
 class CategoriesControllerTest < ActionController::TestCase
-  test "should get categories index" do
     def setup
       @category = Category.create( name: "sports")
       @user = User.create(username: "john", email: "john@example.com", password: "password", admin: true)
     end
+  test "should get categories index" do
     get :index
     assert_response  :success
   end
 
   test "should get new"  do
-    session[ :user_id] = @user.id
+    session[:user_id] = @user.id
     get :new
     assert_response :success
 

@@ -66,6 +66,19 @@ $navbar-default-bg: orange;
       padding-left:0;
 }
 
+.badge{
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: Courier;
+    color: red;
+}
+
+.input_checkbox input{
+    width: auto !important;
+}
+
 .footer {
 	      background-color: black;
 	      color:white;
